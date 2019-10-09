@@ -1,11 +1,15 @@
 # TidyTuesday
-Did some graphs during this week's Tidy Tuesday . I used powerlifting data from openpowerlifting.org
+Did some graphs during this week's Tidy Tuesday (Week 41) . I used powerlifting data from openpowerlifting.org
 
-Animation using gganimate
+1. A scatter plot using geom_point
+
+![alt text](https://github.com/lordoferos/TidyTuesday/blob/master/Rplot07.png)
+
+2. Animation using gganimate
 
 ![alt text](https://github.com/lordoferos/TidyTuesday/blob/master/tidy1.gif)
 
-Wrapped by equipment type
+3. Wrapped by equipment type
 
 ![alt text](https://github.com/lordoferos/TidyTuesday/blob/master/tidy2.gif)
 
