@@ -9,7 +9,7 @@ Did some graphs during this week's Tidy Tuesday (Week 41) . I used powerlifting 
 
 ![alt text](https://github.com/lordoferos/TidyTuesday/blob/master/tidy1.gif)
 
-3. Wrapped by equipment type
+3. Plot wrapped by equipment type
 
 ![alt text](https://github.com/lordoferos/TidyTuesday/blob/master/tidy2.gif)
 
