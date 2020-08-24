@@ -1,13 +1,15 @@
+# Import packages
 library(readr)  # for read_csv
 library(knitr)  # for kable
 library(dplyr)
 library(ggplot2)
 library(tidyverse)
+
 #Download data from github
 myfile <- "https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-10-08/ipf_lifts.csv"
 
 iplifts <- read_csv(myfile)
-View(iplifts)
+View(iplifts) # check out the dataset
 
 #Coerce columns into factors
 cols <- c("sex","event","equipment","age_class",       
@@ -58,6 +60,7 @@ ggplot(data = ipf_data,
 #load gganimate package
 library(gganimate)
 theme_set(theme_bw())#set theme
+
 #Create column with year
 ipf_data$date <- as.Date(ipf_data$date,"%Y-%m-%d")
 ipf_data = ipf_data %>% mutate(year = year(date))
